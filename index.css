@@ -1,0 +1,31 @@
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+h1 {
+    text-align: center;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+main section img {
+    width: 100%;
+}
+
+@media (max-width: 850px) {
+    main section {
+        grid-template-columns: 1fr;
+    }
+}
